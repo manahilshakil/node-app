@@ -5,7 +5,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
     res.statusCode = 200; // OK
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello Manahill\n');
+    res.end('Hello Bash\n');
 });
 
 // Listen on port 3000
